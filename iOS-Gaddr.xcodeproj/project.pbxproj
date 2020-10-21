@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD24876F253F03F600874493 /* SortApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD24876F253F03F600874493 /* iOS-Gaddr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Gaddr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD248772253F03F600874493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD248774253F03F600874493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FD248776253F03F600874493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FD248770253F03F600874493 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD24876F253F03F600874493 /* SortApp.app */,
+				FD24876F253F03F600874493 /* iOS-Gaddr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD24876E253F03F600874493 /* SortApp */ = {
+		FD24876E253F03F600874493 /* iOS-Gaddr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD248783253F03F900874493 /* Build configuration list for PBXNativeTarget "SortApp" */;
+			buildConfigurationList = FD248783253F03F900874493 /* Build configuration list for PBXNativeTarget "iOS-Gaddr" */;
 			buildPhases = (
 				FD24876B253F03F600874493 /* Sources */,
 				FD24876C253F03F600874493 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SortApp;
+			name = "iOS-Gaddr";
 			productName = SortApp;
-			productReference = FD24876F253F03F600874493 /* SortApp.app */;
+			productReference = FD24876F253F03F600874493 /* iOS-Gaddr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD24876A253F03F600874493 /* Build configuration list for PBXProject "SortApp" */;
+			buildConfigurationList = FD24876A253F03F600874493 /* Build configuration list for PBXProject "iOS-Gaddr" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD24876E253F03F600874493 /* SortApp */,
+				FD24876E253F03F600874493 /* iOS-Gaddr */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = STI.SortApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,14 +310,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = STI.SortApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD24876A253F03F600874493 /* Build configuration list for PBXProject "SortApp" */ = {
+		FD24876A253F03F600874493 /* Build configuration list for PBXProject "iOS-Gaddr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD248781253F03F900874493 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD248783253F03F900874493 /* Build configuration list for PBXNativeTarget "SortApp" */ = {
+		FD248783253F03F900874493 /* Build configuration list for PBXNativeTarget "iOS-Gaddr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD248784253F03F900874493 /* Debug */,
